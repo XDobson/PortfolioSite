@@ -169,7 +169,7 @@ a {
     display: flex;
     flex-direction: row;
     height: 90vh;
-    margin-bottom: 300px;
+    margin-bottom: 100px;
     margin-top: 100px;
 }
 
@@ -242,7 +242,7 @@ a {
     border: #E8E8FF solid 2px;
     border-radius: 20px;
     padding: 20px 0;
-    margin: 40px 0;
+    margin: 100px 0 40px 0;
 }
 #aboutpic {
     width: 25vw;
@@ -285,7 +285,7 @@ span {
 }
 
 
-
+/* All Media Queries are a WORK IN PROGRESS */
 /* Screens Wider than 2000px (4k usually) */
 @media (min-width:2000px) {
     #formlogo {
