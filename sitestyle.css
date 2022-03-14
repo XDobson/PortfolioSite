@@ -145,14 +145,19 @@ a {
     align-items: center;
     margin: 20px;
     padding: 20px 0;
-    height: 60vh;
+    height: 40vh;
     background-color: rgba(255, 248, 220, 0.26);
+    border-radius: 20px;
 }
+
 .showcase {
     width: 25vw;
 }
 #showoff img:hover {
     width: 27vw;
+}
+#showoff img {
+    border-radius: 5px;
 }
 
 #textbox {
@@ -202,6 +207,18 @@ a {
     background: radial-gradient(circle, rgba(170,0,186,1) 0%, rgba(87,5,187,1) 100%);
 }
 
+/* Rainbow Barf 4 */
+#showoff:nth-of-type(4) img {
+    border: rgba(255,128,128,1) solid 5px;
+    border-color: linear-gradient(144deg, rgba(255,128,128,1) 0%, rgba(255,198,125,1) 14%, rgba(252,252,131,1) 28%, rgba(133,254,136,1) 42%, rgba(134,255,254,1) 56%, rgba(143,136,255,1) 70%, rgba(217,136,255,1) 84%, rgba(255,133,177,1) 93%, rgba(255,132,132,1) 100%);
+    transition: 0.75s;
+}
+#showoff:nth-of-type(4) #textbox {
+    background: rgb(255,128,128);
+    background: linear-gradient(144deg, rgba(255,128,128,1) 0%, rgba(255,198,125,1) 14%, rgba(252,252,131,1) 28%, rgba(133,254,136,1) 42%, rgba(134,255,254,1) 56%, rgba(143,136,255,1) 70%, rgba(217,136,255,1) 84%, rgba(255,133,177,1) 93%, rgba(255,132,132,1) 100%);
+
+}
+
 /* 
 TEMPLATE
 #showoff:nth-of-type(X) img {
@@ -213,5 +230,6 @@ TEMPLATE
     background: radial-gradient(circle, rgba(x,x,x,x) 0%, rgba(x,x,x,x) 100%);
 }
 Use a CSS Gradient website to easily get gradients. 
+Use Canva Color-wheel website to get colors that look good together
 */
 
