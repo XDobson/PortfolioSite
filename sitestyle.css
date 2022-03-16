@@ -176,7 +176,7 @@ a {
 }
 
 /* Sunny Sips 1 */
-#showoff:nth-child(1) img {
+#showoff:nth-of-type(1) img {
     border: rgb(0, 128, 6) solid 5px;
     transition: 0.75s;
 }
